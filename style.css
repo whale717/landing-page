@@ -98,7 +98,6 @@ h2{
 
 .quote-section{
     display: flex;
-    flex-direction: column;
     background-color: #e5e7eb;
     padding: 120px 120px 96px;
     margin: 0;
@@ -115,5 +114,63 @@ h2{
     font-style: normal;
     font-size: 25px;
     font-weight: bold;
-    text-align: right;
+    float: right;
+}
+
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.contact-box{
+    background-color: #3882f6;
+    display: flex;
+    
+    color: white;
+    padding:50px 160px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.contact-description{
+    align-self: center;
+    margin: 20px;
+    padding: 5px;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+
+.fa-github{
+    background: black;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 30px;
 }
