@@ -73,3 +73,47 @@ a{
     top: 50%;
     cursor: pointer;
 }
+
+.portfolio-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-button{
+    display: flex;
+    gap: 50px;
+    max-width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 120px 120px 96px;
+    margin: 0;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    align-self: center;
+}
+
+.author{
+    font-style: normal;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+}
