@@ -8,15 +8,11 @@ body{
     background-color: #1f2937;
     color: #e5e7eb;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    
 }
 
 .logo-leftside{
-    
-    padding: 0;
-    margin: 0;
     padding-left: 10px;
 }
 
@@ -25,4 +21,55 @@ body{
     list-style-type: none;
     gap: 20px;
     padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.first-banner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1f2937;
+    margin: 0;
+    padding: 90px;
+}
+
+.left-firstbanner{
+    
+    flex-shrink: 0;
+    max-width: 300px;
+}
+
+.right-firstbanner{
+    flex: 0 0 auto;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9fafb;
+    margin: 0;
+    padding: 0;
+}
+
+.description{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+}
+
+.signup{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px 28px;
+    border-radius:10px;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    top: 50%;
+    cursor: pointer;
 }
